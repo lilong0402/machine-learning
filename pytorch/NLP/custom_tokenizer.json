@@ -1,0 +1,195 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<EOS>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "[UNK]",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "[UNK]": 0,
+      "<EOS>": 1,
+      "I": 2,
+      "L": 3,
+      "M": 4,
+      "a": 5,
+      "d": 6,
+      "e": 7,
+      "g": 8,
+      "h": 9,
+      "i": 10,
+      "k": 11,
+      "l": 12,
+      "m": 13,
+      "n": 14,
+      "o": 15,
+      "r": 16,
+      "t": 17,
+      "v": 18,
+      "w": 19,
+      "in": 20,
+      "wa": 21,
+      "LL": 22,
+      "ar": 23,
+      "dr": 24,
+      "er": 25,
+      "ear": 26,
+      "it": 27,
+      "lo": 28,
+      "lear": 29,
+      "me": 30,
+      "nt": 31,
+      "nin": 32,
+      "to": 33,
+      "ter": 34,
+      "ve": 35,
+      "wit": 36,
+      "ink": 37,
+      "want": 38,
+      "water": 39,
+      "LLM": 40,
+      "drink": 41,
+      "love": 42,
+      "learnin": 43,
+      "with": 44,
+      "learning": 45
+    },
+    "merges": [
+      [
+        "i",
+        "n"
+      ],
+      [
+        "w",
+        "a"
+      ],
+      [
+        "L",
+        "L"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "d",
+        "r"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "e",
+        "ar"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "l",
+        "o"
+      ],
+      [
+        "l",
+        "ear"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "n",
+        "t"
+      ],
+      [
+        "n",
+        "in"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "t",
+        "er"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "w",
+        "it"
+      ],
+      [
+        "in",
+        "k"
+      ],
+      [
+        "wa",
+        "nt"
+      ],
+      [
+        "wa",
+        "ter"
+      ],
+      [
+        "LL",
+        "M"
+      ],
+      [
+        "dr",
+        "ink"
+      ],
+      [
+        "lo",
+        "ve"
+      ],
+      [
+        "lear",
+        "nin"
+      ],
+      [
+        "wit",
+        "h"
+      ],
+      [
+        "learnin",
+        "g"
+      ]
+    ]
+  }
+}

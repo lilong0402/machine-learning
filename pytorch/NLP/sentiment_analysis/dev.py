@@ -1,0 +1,11 @@
+
+path_root = "train_sentiment2.txt"
+config ={
+    "BertModel": "bert-base-chinese",
+    "mode":"train",
+    "max_length":128,
+    "dev_num":10,
+    "batch_size":128,
+    "learning_rate":0.001,
+    "epochs":200,
+}
